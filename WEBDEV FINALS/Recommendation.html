@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="Reco.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+
+<header>
+    <img src="SSSLOGO.png" alt="logo" class="logo">
+    <h1 class="h2">Study Spot Safari</h1>
+    <div class="icon-container">
+        <a href="homee.html" class="icon-link"> HOME </a>
+        <a href="contact.html" class="icon-link">CONTACTS</a>
+        <a href="About.html" class="icon-link">ABOUT US</a>
+    </div>
+</header>
+<body>
+    <h3 class ="Intro">
+        Can't See Your Favorite SPOT Here?
+    </h3>
+
+    <h1 class="subtext">
+        Recommend your favorite spot for it to be known as well!
+    </h1>
+
+    <div class="form-container">
+        <div class="contact-form">
+            <h1> What is the type of spot? </h1>
+            <div class="radio-group">
+                <label><input type="radio" name="spot-type" value="Study Hub" /> Study Hub</label>
+                <label><input type="radio" name="spot-type" value="Library" /> Library</label>
+                <label><input type="radio" name="spot-type" value="Coffee Shop" /> Coffee Shop</label>
+            </div>
+
+            <h1>Location of the Spot</h1>
+            <div class="Location">
+                <input type="text" name="location" placeholder="e.g. Dapitan, España, etc." />
+            </div>
+
+            <h1>What is the Price Range?</h1>
+            <input type="range" id="volume" name="volume" min="0" max="500" step="1" value="50">
+            <span id="output">50</span>+
+
+            <h1>Short Description</h1>
+            <textarea placeholder="Provide a short descriptions like ratings, price range, etc." rows="5"></textarea>
+            <button>Submit Button</button>
+        </div>
+
+        <div class="newsletter-form">
+            <h2>Our Newsletters</h2>
+            <p>Do you want to be updated if your recommended spot is added to our website? provide your email so you will be updated once it is uploaded.</p>
+            <input type="email" placeholder="Email" />
+            <button>Submit Button</button>
+        </div>
+    </div>
+
+    <script>
+        const rangeInput = document.getElementById('volume');
+        const output = document.getElementById('output');
+
+        rangeInput.addEventListener('input', function() {
+            output.textContent = this.value;
+        });
+    </script>
+</body>
+</html>
