@@ -1,0 +1,213 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+.about-us {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.icon-link {
+    display: inline-block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 900 ;
+    font-family: 'Poppins';
+    border-radius: 30px;
+  }
+  
+  .icon-link svg {
+    fill: currentColor;
+  }
+  
+  .icon-link:hover {
+    background-color: White;
+  
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: left;
+    gap: 70px; 
+    margin-bottom: 10px;
+    margin-top: -60px;
+    margin-left: 780px;
+    border-radius: 100px;
+    font-family: 'Poppins';
+  }
+  
+
+  .logo {
+    width: 100px; 
+    height: auto; 
+    margin-right: -5px; 
+    margin-top: -50px;
+    margin-left: 20px;
+    float: left; 
+    background-color: transparent;
+  }
+  
+  .h2 {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-family: 'Lucida Calligraphy', cursive;
+    font-style: oblique;
+    font-weight: Bold;
+    text-align: left;
+    color: Black;
+  }
+  
+
+  header {
+    padding-top: 40px;
+    padding-bottom: -500px;
+    background-color:#9ABDDC;
+    background-size: cover;
+    margin-bottom: 30px;
+    border: none;
+    height: 42px;
+  }
+
+  .Intro {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .subtext {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -30px;
+  }
+
+
+.form-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    align-items: center;
+    margin-left: 290px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact-form, .newsletter-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #9ABDDC;
+}
+
+.contact-form {
+    flex: 2;
+}
+
+.newsletter-form {
+    flex: 1;
+    background-color: #9ABDDC;
+    color: black;
+    margin-top: -256px;
+}
+
+.contact-form h1, .newsletter-form h2 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 87%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #9ABDDC;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #5e7676;
+    color: white;
+    cursor: pointer;
+    margin-left: 174px;
+}
+
+.radio-group label {
+    display: inline-flex; 
+    align-items: center; 
+    white-space: nowrap; 
+    margin-right: 15px; 
+}
+
+
+
+.contact-form button {
+    display: block; 
+    margin-top: 10px; 
+}
+
+.radio-group input {
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.newsletter-form h2 {
+    margin-bottom: 10px;
+}
+
+.newsletter-form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-right: -5px;
+}
+
+.newsletter-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #5e7676;
+}
+
+.newsletter-form button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 56px;
+}
+
+#output {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: #333;
+    
+}
+
+#volume{
+    width: 74%;
+}
