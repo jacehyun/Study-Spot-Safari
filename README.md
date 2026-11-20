@@ -1,6 +1,6 @@
 # Study Spot Safari 🐾
 
-A student-made website that helps students in Manila find study-friendly spots — coffee shops, study hubs, and libraries — with details on schedules, location maps, and reviews.
+A student-made website that helps students in Manila find study-friendly spots such as coffee shops, study hubs, and libraries which includes details on schedules, location maps, and reviews.
 
 ## About
 
@@ -25,5 +25,3 @@ Study Spot Safari is a static, multi-page website built to help students discove
 - Vanilla JavaScript — interactive elements (e.g. price range slider)
 - Google Fonts (Poppins)
 - Google Maps Embed API
-
-## Project Structure
